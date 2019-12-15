@@ -2,9 +2,9 @@
 
 exports.s3 = {
   client: {
-    accessKeyId: 'ww',
-    secretAccessKey: 'ww',
-    endpoint: 'ww',
+    accessKeyId: '',
+    secretAccessKey: '',
+    endpoint: '',
   },
   app: true,
   agent: false,

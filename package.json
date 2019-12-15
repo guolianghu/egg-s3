@@ -1,6 +1,6 @@
 {
   "name": "@eggplugin/s3",
-  "version": "0.9.0",
+  "version": "1.0.0",
   "description": "AWS S3 plugin for Egg",
   "eggPlugin": {
     "name": "s3"
