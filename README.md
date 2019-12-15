@@ -2,7 +2,7 @@
 
 [AWS-S3](https://github.com/aws/aws-sdk-js) plugin for Egg.js
 
-> NOTE: This plugin just for integrate amqplib into Egg.js, more documentation please visit https://docs.aws.amazon.com/AWSJavaScriptSDK/latest/AWS/S3.html.
+> NOTE: This plugin just for integrate AWS-S3 into Egg.js, more documentation please visit https://docs.aws.amazon.com/AWSJavaScriptSDK/latest/AWS/S3.html.
 
 [![NPM version][npm-image]][npm-url]
 [![build status][travis-image]][travis-url]
