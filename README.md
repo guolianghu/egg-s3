@@ -43,7 +43,7 @@ exports.s3 = {
 ```
 see [config/config.default.js](config/config.default.js) for more detail.
 
-### Simple database instance
+### Simple instance
 
 ```js
 // {app_root}/config/config.default.js
@@ -73,7 +73,7 @@ Usage:
 }).catch(console.error);
 ```
 
-### Multiple database instance
+### Multiple instance
 
 ```js
 exports.s3 = {
