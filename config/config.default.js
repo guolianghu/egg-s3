@@ -5,40 +5,33 @@
  * @member Config#s3
  */
 exports.s3 = {
-  // default configuration for all clients
-  default: {
-    // endpoint: '',
-    // s3ForcePathStyle: '',
-    // maxRetries: '',
-    // sslEnabled: '',
-    // apiVersion: '',
-    // signatureVersion: '',
-    // ...
-  },
-  app: true,
-  agent: false,
+    // default configuration for all clients
 
-  // Single client
-  // client: {
-  //   accessKeyId: '',
-  //   secretAccessKey: '',
-  //   endpoint: '',
-  //   // ...
-  // },
+    app: true,
+    agent: false,
 
-  // Multi client
-  // clients: {
-  //   client1: {
-  //     accessKeyId: '',
-  //     secretAccessKey: '',
-  //     endpoint: '',
-  //     // ...
-  //   },
-  //   client2: {
-  //     accessKeyId: '',
-  //     secretAccessKey: '',
-  //     endpoint: '',
-  //     // ...
-  //   },
-  // },
+    // Single client
+    // client: {
+    //     region: '',
+    //     credentials: {
+    //         accessKeyId: '',
+    //         secretAccessKey: ''
+    //     },
+    // },
+
+    // Multi client
+    // clients: {
+    //   client1: {
+    //     accessKeyId: '',
+    //     secretAccessKey: '',
+    //     endpoint: '',
+    //     // ...
+    //   },
+    //   client2: {
+    //     accessKeyId: '',
+    //     secretAccessKey: '',
+    //     endpoint: '',
+    //     // ...
+    //   },
+    // },
 };
